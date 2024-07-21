@@ -1,0 +1,3 @@
+﻿  RSA.cpp
+C:\Users\alexa\Desktop\RSA-Key\RSA\RSA.cpp(4,6): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+  RSA.vcxproj -> C:\Users\alexa\Desktop\RSA-Key\RSA\x64\Debug\RSA.exe
