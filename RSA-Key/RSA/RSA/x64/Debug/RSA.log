@@ -1,3 +1,0 @@
-﻿  RSA.cpp
-C:\Users\alexa\Desktop\RSA-Key\RSA-Key\RSA\RSA.cpp(56,13): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
-  RSA.vcxproj -> C:\Users\alexa\Desktop\RSA-Key\RSA-Key\RSA\x64\Debug\RSA.exe
