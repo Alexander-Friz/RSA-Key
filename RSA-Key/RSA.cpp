@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <map>
 #include <algorithm>
@@ -53,10 +53,10 @@ int encrypt(int n, int e, std::string message) {
 
 	};
 
-	int length = message.length(); //M�gliches Error Handling mit Fehler Nachricht > 500 W�rter.
+	int length = message.length(); //Mögliches Error Handling mit Fehler Nachricht > 500 Wörter.
 	cout <<"Zeichen in der Nachricht: " << length << endl;
 
-	int message_int[500]{}; //Da Variable lenght nicht akzepitert wegen der Speicher allokation hier eine Maximale l�nge von 500 Zeichen in einer Nachricht.
+	int message_int[500]{}; //Da Variable lenght nicht akzepitert wegen der Speicher allokation hier eine Maximale länge von 500 Zeichen in einer Nachricht.
 	transform(message.begin(),message.end(), message.begin(), ::toupper);
 
 	for (int i = 0; i < length; ++i) {
@@ -67,6 +67,26 @@ int encrypt(int n, int e, std::string message) {
 		cout << message[i] << endl;
 	}
 	
+	//Anwendung Algorithmus für Verschlüsselung der INT in der Message INT Liste
+	// Quelle: https://norbert-pohlmann.com/glossar-cyber-sicherheit/rsa-verfahren/
+	// Schritt 1: Suche nach zwei großen Primzahlen p und q
+
+
+	// Primzahltest von p und q
+
+
+	// Berechnung Produkt n = n * q
+
+
+
+	// Berechnung Teilerfremde Zahl e = ((p - 1) * (q - 1)
+
+
+	// => Öffentlicher Schlüssel (e, n)
+
+	// Erweiterter Euklidischer Algorithmus zur berechnung von e * d mod ((p − 1) (q − 1)) = 1
+
+	// =>Privater Schlüssel d
 	return 1;
 
 }
@@ -74,8 +94,8 @@ int encrypt(int n, int e, std::string message) {
 int main() {
 	using namespace std;
 	bool run = false;
-	cout << "Encrypt a message. (1)" << endl; //verschl�sseln
-	cout << "Decrypt a message. (2)" << endl; //entschl�sseln
+	cout << "Encrypt a message. (1)" << endl; //verschlüsseln
+	cout << "Decrypt a message. (2)" << endl; //entschlüsseln
 	cout << "Quit (3)" << endl;	//beenden
 	int x;
 	cout << "Please choose an option" << ":" << endl;
@@ -85,7 +105,7 @@ int main() {
 	switch (x) {
 	case 1:
 	{
-		cout << "Type in the message you want to encrypt." << endl; //verschl�sseln
+		cout << "Type in the message you want to encrypt." << endl; //verschlüsseln
 		std::string message;
 		getline(cin, message);
 		cout << "Your Message is: " << message << endl;
