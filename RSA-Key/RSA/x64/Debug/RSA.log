@@ -1,3 +1,4 @@
 ﻿  RSA.cpp
-C:\Users\alexa\Desktop\RSA-Key\RSA-Key\RSA.cpp(56,13): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
-  RSA.vcxproj -> C:\Users\alexa\Desktop\RSA-Key\RSA-Key\x64\Debug\RSA.exe
+C:\Users\alexa\Desktop\Programmierung\RSA-Key\RSA-Key\RSA.cpp(188,39): warning C4244: "Argument": Konvertierung von "__int64" in "const int", möglicher Datenverlust
+C:\Users\alexa\Desktop\Programmierung\RSA-Key\RSA-Key\RSA.cpp(189,43): warning C4244: "Argument": Konvertierung von "__int64" in "int", möglicher Datenverlust
+  RSA.vcxproj -> C:\Users\alexa\Desktop\Programmierung\RSA-Key\RSA-Key\x64\Debug\RSA.exe
